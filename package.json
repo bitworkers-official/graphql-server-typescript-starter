@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon --ext ts,graphql --exec ts-node src/index.ts",
-    "generate": "graphqlgen",
+    "precommit": "lint-staged",
     "build": "tsc"
   },
   "keywords": [],
