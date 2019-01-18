@@ -1,5 +1,5 @@
 # GraphQL Typescript Starter
-> Demo: https://graphql-typescript-starter.herokuapp.com/
+> Demo: https://graphql-typescript-starter.herokuapp.com/ 👈
 
 ## Quickstart 🚀
 
