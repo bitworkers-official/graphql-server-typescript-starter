@@ -5,6 +5,7 @@
     "no-console": false,
     "prettier": true,
     "interface-name": false,
-    "no-empty-interface": false
+    "no-empty-interface": false,
+    "no-namespace": false
   }
 }
