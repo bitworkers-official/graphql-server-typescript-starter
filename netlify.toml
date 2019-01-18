@@ -1,0 +1,4 @@
+[build]
+  Command = "npm run deploy"
+  Functions = "functions"
+  Publish = "public"
