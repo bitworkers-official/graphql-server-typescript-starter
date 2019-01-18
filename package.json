@@ -5,7 +5,6 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon --ext ts,graphql --exec ts-node src/index.ts",
-    "precommit": "lint-staged",
     "build": "tsc"
   },
   "keywords": [],
@@ -32,5 +31,10 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
