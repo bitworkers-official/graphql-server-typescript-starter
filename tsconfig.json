@@ -2,11 +2,12 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
-
     "strict": true,
     "sourceMap": true,
     "outDir": "dist",
-    "lib": ["esnext"],
-    "skipLibCheck": true
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   }
 }

@@ -1,3 +1,3 @@
-import { Data } from './types'
+import { Data } from './types';
 
-export const data: Data = {}
+export const data: Data = {};

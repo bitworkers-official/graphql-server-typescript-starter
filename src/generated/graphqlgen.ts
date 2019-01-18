@@ -7,7 +7,7 @@ export namespace QueryResolvers {
   export const defaultResolvers = {};
 
   export interface ArgsHello {
-    name?: string | null;
+    name?: string | null
   }
 
   export type HelloResolver = (
