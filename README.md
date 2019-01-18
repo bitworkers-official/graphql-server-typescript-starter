@@ -1,5 +1,8 @@
 # GraphQL Typescript Starter
-> Demo: https://graphql-typescript-starter.herokuapp.com/ 👈
+> Starter Template for GraphQL & Typescript 
+
+## Demo 
+graphql-typescript-starter.herokuapp.com/ 👈
 
 ## Quickstart 🚀
 
