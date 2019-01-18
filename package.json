@@ -4,12 +4,13 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "ts-node --no-cache src/index.ts",
-    "generate": "graphqlgen"
+    "dev": "nodemon --ext ts,graphql --exec ts-node src/index.ts",
+    "generate": "graphqlgen",
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Simon Siefke <simon.siefke@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "graphqlgen": "^0.5.1",
     "nodemon": "^1.18.9",

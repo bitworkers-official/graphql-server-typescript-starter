@@ -8,4 +8,4 @@ const server = new GraphQLServer({
   context: { data },
 } as any)
 
-server.start(() => console.log(`Server is running on http://localhost:4000`))
+server.start(() => console.log(`👉  http://localhost:4000`))
