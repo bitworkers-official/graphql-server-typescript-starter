@@ -1,3 +1,4 @@
+![](https://badges.renovateapi.com/github/bitworkers-official/graphql-typescript-starter)
 # GraphQL Typescript Starter
 > Starter Template for GraphQL & Typescript 
 
