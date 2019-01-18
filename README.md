@@ -1,4 +1,4 @@
-# Graphql Typescript Starter
+# GraphQL Typescript Starter
 
 ## Quickstart 🚀
 
