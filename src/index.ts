@@ -1,4 +1,3 @@
-import { ApolloEngine } from 'apollo-engine'
 import { GraphQLServer } from 'graphql-yoga'
 import { data } from './data'
 import { resolvers } from './resolvers'
@@ -11,32 +10,9 @@ const server = new GraphQLServer({
   context: { data }
 } as any)
 
-if (process.env.APOLLO_ENGINE_KEY) {
-  const engine = new ApolloEngine({
-    apiKey: process.env.APOLLO_ENGINE_KEY
-  })
-
-  const httpServer = server.createHttpServer({
-    tracing: true,
-    cacheControl: true
-  })
-
-  engine.listen(
-    {
-      port,
-      httpServer,
-      graphqlPaths: ['/']
-    },
-    () =>
-      console.log(
-        `Server with Apollo Engine is running on http://localhost:${port}`
-      )
-  )
-} else {
-  server.start(
-    {
-      port
-    },
-    () => console.log(`👉  http://localhost:4000`)
-  )
-}
+server.start(
+  {
+    port
+  },
+  () => console.log(`👉  http://localhost:4000`)
+)
