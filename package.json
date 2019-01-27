@@ -1,7 +1,7 @@
 {
   "name": "graphql-server-typescript-starter",
   "version": "1.0.0",
-  "description": "Starter Template for a GraphQL & Typescript server",
+  "description": "Starter template for a GraphQL & Typescript server",
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon --watch src --ext ts,graphql --exec ts-node src/index.ts",
