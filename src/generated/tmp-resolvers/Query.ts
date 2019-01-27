@@ -10,5 +10,5 @@ export const Query: QueryResolvers.Type = {
   },
   isGraphQLAwesome: (parent, args, ctx) => {
     throw new Error('Resolver not implemented')
-  }
+  },
 }

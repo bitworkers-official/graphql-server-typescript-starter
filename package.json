@@ -4,7 +4,7 @@
   "description": "Starter Template for GraphQL & Typescript",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "nodemon --ext ts,graphql --exec ts-node src/index.ts",
+    "dev": "nodemon --watch src --ext ts,graphql --exec ts-node src/index.ts",
     "build": "tsc",
     "start": "npm run build && node dist/index.js"
   },

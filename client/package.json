@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch index.ts --exec ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.1.23",
+    "cross-fetch": "^3.0.0",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-bitworkers": "^1.10.1",
+    "eslint-plugin-graphql": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.1",
+    "prettier-config-bitworkers": "^1.4.1",
+    "ts-node": "^8.0.1"
+  }
+}

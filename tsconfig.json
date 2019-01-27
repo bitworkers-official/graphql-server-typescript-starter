@@ -9,5 +9,6 @@
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "noUnusedParameters": false
-  }
+  },
+  "include": ["src"]
 }
