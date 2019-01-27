@@ -18,7 +18,7 @@
     // https://github.com/ChristianKohler/NpmIntellisense
     "christian-kohler.npm-intellisense",
     // GraphQL support
-    // https://github.com/kumarharsh/graphql-for-vscode
-    "kumar-harsh.graphql-for-vscode"
+    // https://github.com/prisma/vscode-graphql
+    "Prisma.vscode-graphql"
   ]
 }
