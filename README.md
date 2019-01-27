@@ -2,7 +2,7 @@
 
 # GraphQL Server Typescript Starter
 
-> Starter Template for a GraphQL & Typescript Server
+> Starter Template for a GraphQL & Typescript server
 
 ## Demo
 
