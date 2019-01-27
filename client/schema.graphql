@@ -1,5 +1,5 @@
-# source: http://localhost:4000
-# timestamp: Sun Jan 27 2019 19:21:27 GMT+0100 (Central European Standard Time)
+# source: https://graphql-typescript-starter.herokuapp.com
+# timestamp: Sun Jan 27 2019 19:32:45 GMT+0100 (Central European Standard Time)
 
 type Query {
   hello(name: String): String!

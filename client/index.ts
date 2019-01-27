@@ -2,12 +2,15 @@ import ApolloClient from 'apollo-boost'
 import gql from 'graphql-tag'
 import 'cross-fetch/polyfill' // required polyfill for fetch
 
+// configure the apollo client
 const client = new ApolloClient({
-  uri: 'http://localhost:4000',
+  uri: 'https://graphql-typescript-starter.herokuapp.com',
 })
 
-async function greet() {
+async function hello() {
+  // send a request to the server
   const { data } = await client.query({
+    // this is our query
     query: gql`
       query hello {
         hello
@@ -17,4 +20,4 @@ async function greet() {
   console.log(data)
 }
 
-greet()
+hello()
