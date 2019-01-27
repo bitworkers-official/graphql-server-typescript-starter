@@ -1,8 +1,11 @@
 ![](https://badges.renovateapi.com/github/bitworkers-official/graphql-typescript-starter)
-# GraphQL Typescript Starter
-> Starter Template for GraphQL & Typescript 
 
-## Demo 
+# GraphQL Server Typescript Starter
+
+> Starter Template for a GraphQL & Typescript Server
+
+## Demo
+
 https://graphql-typescript-starter.herokuapp.com/ 👈
 
 ## Quickstart 🚀
