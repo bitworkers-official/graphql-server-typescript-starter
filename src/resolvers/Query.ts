@@ -6,5 +6,5 @@ export const Query: QueryResolvers.Type = {
   },
   isGraphQLAwesome: (parent, args, ctx) => {
     return true
-  }
+  },
 }
