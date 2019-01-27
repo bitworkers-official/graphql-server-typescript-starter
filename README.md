@@ -1,4 +1,4 @@
-![](https://badges.renovateapi.com/github/bitworkers-official/graphql-typescript-starter)
+![](https://badges.renovateapi.com/github/bitworkers-official/graphql-server-typescript-starter)
 
 # GraphQL Server Typescript Starter
 
@@ -6,7 +6,7 @@
 
 ## Demo
 
-https://graphql-typescript-starter.herokuapp.com/ 👈
+https://graphql-server-typescript.herokuapp.com 👈
 
 ## Quickstart 🚀
 
