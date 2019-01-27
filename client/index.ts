@@ -8,8 +8,11 @@ const client = new ApolloClient({
 })
 
 async function hello() {
+  interface Data {
+    hello: string;
+  }
   // send a request to the server
-  const { data } = await client.query({
+  const { data } = await client.query<Data>({
     // this is our query
     query: gql`
       query hello {
