@@ -2,7 +2,7 @@
 
 # GraphQL Server Typescript Starter
 
-> Starter template for a GraphQL & Typescript server
+> Starter template for a GraphQL & Typescript server.
 
 ## Demo
 
@@ -16,3 +16,7 @@ cd graphql-server-typescript-starter &&
 npm install &&
 npm run dev
 ```
+
+## Client
+
+For an accompanying GraphQl client template see https://github.com/bitworkers-official/graphql-client-typescript-starter.
