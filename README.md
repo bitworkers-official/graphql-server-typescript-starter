@@ -19,4 +19,4 @@ npm run dev
 
 ## Client
 
-For an accompanying GraphQl client template see https://github.com/bitworkers-official/graphql-client-typescript-starter.
+For an accompanying GraphQL client template see https://github.com/bitworkers-official/graphql-client-typescript-starter.
