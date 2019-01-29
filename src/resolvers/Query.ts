@@ -4,7 +4,7 @@ export const Query: QueryResolvers.Type = {
   hello(parent, { name }, ctx, info) {
     return `${name || 'world'}`
   },
-  isGraphQLAwesome: (parent, args, ctx) => {
+  isGraphQLAwesome: (parent, args, ctx, info) => {
     return true
   },
 }
