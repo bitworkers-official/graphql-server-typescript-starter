@@ -21,6 +21,6 @@ npm run dev
 
 Press the green play icon in the debugging pane
 
-## Client
+## GraphQL Client Typescript Starter
 
 For an accompanying GraphQL client template see https://github.com/bitworkers-official/graphql-client-typescript-starter.
