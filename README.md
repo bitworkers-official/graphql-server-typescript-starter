@@ -19,8 +19,7 @@ npm run dev
 
 ## Debugging (in Visual Studio Code)
 
-1.  Run `npm run debug`
-1.  Press the green play icon in the debugging pane
+Press the green play icon in the debugging pane
 
 ## Client
 
