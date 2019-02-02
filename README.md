@@ -17,6 +17,11 @@ npm install &&
 npm run dev
 ```
 
+## Debugging (in Visual Studio Code)
+
+1.  Run `npm run debug`
+1.  Press the green play icon in the debugging pane
+
 ## Client
 
 For an accompanying GraphQL client template see https://github.com/bitworkers-official/graphql-client-typescript-starter.
