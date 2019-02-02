@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && node dist/server.js",
     "dev": "nodemon --watch src --ext ts,graphql --exec ts-node src/server.ts",
-    "debug": "nodemon --inspect -r ts-node/register ./src/server.ts",
+    "debug": "nodemon --watch src --ext ts,graphql --inspect -r ts-node/register ./src/server.ts",
     "build": "tsc",
     "lint": "eslint . --ext .ts"
   },
