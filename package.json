@@ -4,9 +4,10 @@
   "description": "Starter template for a GraphQL & Typescript server",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "nodemon --watch src --ext ts,graphql --exec ts-node src/index.ts",
+    "start": "npm run build && node dist/server.js",
+    "dev": "nodemon --watch src --ext ts,graphql --exec ts-node src/server.ts",
+    "debug": "nodemon --inspect -r ts-node/register ./src/server.ts",
     "build": "tsc",
-    "start": "npm run build && node dist/index.js",
     "lint": "eslint . --ext .ts"
   },
   "keywords": [
