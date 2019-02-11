@@ -14,9 +14,6 @@
     // Npm Support
     // https://github.com/Microsoft/vscode-npm-scripts
     "eg2.vscode-npm-script",
-    // Npm intellisense
-    // https://github.com/ChristianKohler/NpmIntellisense
-    "christian-kohler.npm-intellisense",
     // GraphQL support
     // https://github.com/prisma/vscode-graphql
     "Prisma.vscode-graphql"
